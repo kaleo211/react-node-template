@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "es2022",
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "target": "es2022",
+    "typeRoots" : ["node_modules/@types", "types"],
+  },
+  "include": [".", ".eslintrc.cjs"],
+  "exclude": ["client"],
+}

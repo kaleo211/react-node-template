@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "target": "es6",
+    "jsx": "react-jsx",
+    "typeRoots" : ["node_modules/@types"],
+  },
+  "include": [".", ".d.ts"],
+  "exclude": ["tests"]
+}
